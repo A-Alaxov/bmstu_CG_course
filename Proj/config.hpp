@@ -1,0 +1,75 @@
+#ifndef CONFIG_HPP
+#define CONFIG_HPP
+
+#define TH_COUNT 0
+
+#define SHADOW_INTENSITY 50
+
+#define DIST_EPS 1
+
+#define SCALE_FACTOR 100
+#define PLATE_Z 9950
+#define PLATE_START 10, 10, PLATE_Z
+
+#define X_CENTER 785
+#define Y_CENTER 520
+
+#define MU 0.05
+#define MU_BUTTON 0.2
+#define G 10
+
+#define SCALE_VALUE 0.1
+
+#define ILLUM_VIS_X 3000
+#define ILLUM_VIS_Y 1500
+
+#define DOMINO_START 5
+
+#define MOVE_UNIT 50
+#define ROTATE_UNIT 3.14159265358979323846 / 8
+
+#define BLACK_COLOUR 0, 0, 0
+#define SOFT_BLACK_COLOUR 100, 100, 100
+#define DARK_BLACK_COLOUR 50, 50, 50
+#define LILAC_COLOUR 255, 150, 255
+#define DARK_LILAC_COLOUR 205, 100, 205
+#define BROWN_COLOUR 64, 47, 29
+#define DARK_BROWN_COLOUR 14, 0, 0
+#define ORANGE_COLOUR 255, 120, 0
+#define DARK_ORANGE_COLOUR 205, 70, 0
+#define GOLD_COLOUR 255, 215, 0
+#define DARK_GOLD_COLOUR 205, 165, 0
+#define WHITE_COLOUR 255, 255, 255
+#define DARK_WHITE_COLOUR 205, 205, 205
+#define GRAY_COLOUR 128, 128, 128
+#define DARK_GRAY_COLOUR 78, 78, 78
+#define RED_COLOUR 255, 0, 0
+#define DARK_RED_COLOUR 205, 0, 0
+#define SILVER_COLOUR 192, 192, 192
+#define DARK_SILVER_COLOUR 142, 142, 142
+#define YELLOW_COLOUR 255, 255, 0
+#define DARK_YELLOW_COLOUR 205, 205, 0
+#define BLUE_COLOUR 173, 216, 230
+#define DARK_BLUE_COLOUR 123, 166, 180
+
+#define BLACK 6
+#define WHITE 8
+#define BROWN 1
+#define ORANGE 3
+#define GRAY 10
+#define RED 12
+#define SILVER 14
+#define YELLOW 16
+#define BLUE 18
+
+#define SPACE_BETWEEN_DOMINO 65.0
+
+//#define TABLE_COLOUR 190, 130, 0
+//#define DARK_TABLE_COLOUR 150, 100, 0
+//#define BAR_TABLE_COLOUR 255, 0, 0
+//#define TV_COLOUR 200, 200, 200
+//#define DARK_TV_COLOUR 165, 165, 165
+
+#define EPS 1e-3
+
+#endif // CONFIG_HPP
